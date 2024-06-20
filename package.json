@@ -1,0 +1,26 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.2",
+    "mssql": "^10.0.2",
+    "typescript": "^5.3.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.3",
+    "@angular/cli": "^17.3.3",
+    "@angular/common": "^17.3.4",
+    "@angular/core": "^17.3.4",
+    "@angular/platform-browser-dynamic": "^17.3.4",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}

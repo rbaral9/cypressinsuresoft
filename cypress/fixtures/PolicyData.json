@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "EffectiveDate": "06212024",
+        "PhoneNo": "8585273684",
+        "Zip": "92131",
+        "Address": "10824 CAMINITO COLORADO",
+        "InsuredFname": "InsuredFnameOne",
+        "DrvLname": "InsuredLnameOne",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 2,
+        "EffectiveDate": "06212024",
+        "PhoneNo": "8585273684",
+        "Zip": "92131",
+        "Address": "10824 CAMINITO COLORADO",
+        "InsuredFname": "InsuredFnameTwo",
+        "DrvLname": "InsuredLnameTwo",
+        "VinNo": "2HGFC2F69LH557659"
+        
+    },
+    {
+        "id": 3,
+        "EffectiveDate": "06212024",
+        "PhoneNo": "8585273684",
+        "Zip": "92131",
+        "Address": "10824 CAMINITO COLORADO",
+        "InsuredFname": "InsuredFnamThree",
+        "DrvLname": "InsuredLnameThree",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 4,
+        "EffectiveDate": "06212024",
+        "PhoneNo": "8585273684",
+        "Zip": "92131",
+        "Address": "10824 CAMINITO COLORADO",
+        "InsuredFname": "InsuredFnameFour",
+        "DrvLname": "InsuredLnameFour",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 5,
+        "EffectiveDate": "06212024",
+        "PhoneNo": "8585273684",
+        "Zip": "92131",
+        "Address": "10824 CAMINITO COLORADO",
+        "InsuredFname": "InsuredFnameFive",
+        "DrvLname": "InsuredLnameFive",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 6,
+        "EffectiveDate": "06212024",
+        "PhoneNo": "8585273684",
+        "Zip": "92131",
+        "Address": "10824 CAMINITO COLORADO",
+        "InsuredFname": "InsuredFnameSix",
+        "DrvLname": "InsuredLnameSix",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 7,
+        "EffectiveDate": "06212024",
+        "PhoneNo": "8585273684",
+        "Zip": "92131",
+        "Address": "10824 CAMINITO COLORADO",
+        "InsuredFname": "InsuredFnameSeven",
+        "DrvLname": "InsuredLnameSeven",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 8,
+        "EffectiveDate": "06212024",
+        "PhoneNo": "8585273684",
+        "Zip": "92131",
+        "Address": "10824 CAMINITO COLORADO",
+        "InsuredFname": "InsuredFnameEight",
+        "DrvLname": "InsuredLnameEight",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 9,
+        "EffectiveDate": "06212024",
+        "PhoneNo": "8585273684",
+        "Zip": "92131",
+        "Address": "10824 CAMINITO COLORADO",
+        "InsuredFname": "InsuredFnameNine",
+        "DrvLname": "InsuredLnameNine",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 10,
+        "EffectiveDate": "06212024",
+        "PhoneNo": "8585273684",
+        "Zip": "92131",
+        "Address": "10824 CAMINITO COLORADO",
+        "InsuredFname": "InsuredFnameTen",
+        "DrvLname": "InsuredLnameTen",
+        "VinNo": "2HGFC2F69LH557659"
+    }
+]
