@@ -25,3 +25,6 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 /// <reference types="cypress-xpath" />
+
+// include the file upload commands
+import 'cypress-file-upload';

@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "EffectiveDate": "06252024",
+        "PhoneNo": "7087052587",
+        "Zip": "92131",
+        "StreetNo": "10824",
+        "Address": "CAMINITO COLORADO",
+        "InsuredFname": "JenniferOne",
+        "DrvLname": "JenniferOne",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 2,
+        "EffectiveDate": "06252024",
+        "PhoneNo": "5938611954",
+        "Zip": "92128",
+        "StreetNo": "13612",
+        "Address": "Fontanelle Pl",
+        "InsuredFname": "JenniferTwo",
+        "DrvLname": "JenniferTwo",
+        "VinNo": "2HGFC2F69LH557659"
+        
+    },
+    {
+        "id": 3,
+        "EffectiveDate": "06252024",
+        "PhoneNo": "8585273684",
+        "Zip": "92129",
+        "StreetNo": "11238",
+        "Address": "Del Diablo Way",
+        "InsuredFname": "JenniferThree",
+        "DrvLname": "JenniferThree",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 4,
+        "EffectiveDate": "06252024",
+        "PhoneNo": "8585273684",
+        "Zip": "92101",
+        "StreetNo": "2453",
+        "Address": "Curlew St",
+        "InsuredFname": "JenniferFour",
+        "DrvLname": "JenniferFour",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 5,
+        "EffectiveDate": "06252024",
+        "PhoneNo": "8585273684",
+        "Zip": "92121",
+        "StreetNo": "9773",
+        "Address": "Genesee Ave",
+        "InsuredFname": "JenniferFive",
+        "DrvLname": "JenniferFive",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 6,
+        "EffectiveDate": "06252024",
+        "PhoneNo": "8585273684",
+        "Zip": "92126",
+        "StreetNo": "11058",
+        "Address": "Solstice Way",
+        "InsuredFname": "JenniferSix",
+        "DrvLname": "JenniferSix",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 7,
+        "EffectiveDate": "06252024",
+        "PhoneNo": "8585273684",
+        "Zip": "92124",
+        "StreetNo": "5356",
+        "Address": "Caminito Velasquez",
+        "InsuredFname": "JenniferSeven",
+        "DrvLname": "JenniferSeven",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 8,
+        "EffectiveDate": "06252024",
+        "PhoneNo": "8585273684",
+        "Zip": "92591",
+        "StreetNo": "40647",
+        "Address": "Melrose Dr",
+        "InsuredFname": "JenniferEight",
+        "DrvLname": "JenniferEight",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 9,
+        "EffectiveDate": "06252024",
+        "PhoneNo": "8585273684",
+        "Zip": "92014",
+        "StreetNo": "4752",
+        "Address": "Sun Valley Rd",
+        "InsuredFname": "JenniferNine",
+        "DrvLname": "JenniferNine",
+        "VinNo": "2HGFC2F69LH557659"
+    },
+    {
+        "id": 10,
+        "EffectiveDate": "06252024",
+        "PhoneNo": "8585273684",
+        "Zip": "90001",
+        "StreetNo": "1159",
+        "Address": "E 64th St",
+        "InsuredFname": "JenniferTen",
+        "DrvLname": "JenniferTen",
+        "VinNo": "2HGFC2F69LH557659"
+    }
+]

@@ -9,6 +9,7 @@ import BillingInfo from "./PageObjects/BillingInfo.js";
 
 
 
+
 describe('Launch Insure Soft Portal',
   {
     viewportHeight: 1200,
@@ -20,16 +21,29 @@ describe('Launch Insure Soft Portal',
 
     it('PerformLogin', () => {
 
-      cy.visit('https://c89-test-1.diamondasaservice.com/DiamondWeb/Employee', { timeout: 30000 });
+      //cy.visit('https://c89-test-1.diamondasaservice.com/DiamondWeb/Employee', { timeout: 30000 });
+      cy.visit('https://c89-test-2.diamondasaservice.com/DiamondWeb/(S(dnt4w2254b1a0nmlp3sc0obh))/Employee', { timeout: 30000 });
+
+      
+
+
+
+      //cy.visit('https://c89-test-1.diamondasaservice.com/DiamondWeb/Employee', { timeout: 30000 });
       cy.wait(1000);
       const pageLogin = new Login();
+
       pageLogin.setUserName('rbaral');
       pageLogin.setPassword('R@1qaz2wsx');
-      pageLogin.cliclLoginButton();
+      pageLogin.clickLoginButton();
 
       cy.fixture('PolicyDataIVR.json').then((data) => {
+      //cy.fixture('JenPolicyData.json').then((data) => {
 
-        for (var i = 5; i <= 5; i++) {
+        for (var i = 1 ;i <= 20; i++) {
+          //const rowNum = 2; // Specify the row number you want to read (0-based index)
+          //const rowData = readExcelFileByRow('cypress/fixtures/cypress/support/InsureSoftPolicyData.xlsx', rowNum);
+          //console.log(rowData);
+    
 
           let user = data.find(TestCase => TestCase.id == i);
           console.log(user);
@@ -47,32 +61,10 @@ describe('Launch Insure Soft Portal',
           newPolicypage.enterPhopneNo(user.PhoneNo);
           newPolicypage.enterZip(user.Zip);
           newPolicypage.tabOutonZipField();
-          newPolicypage.enterAgencyID("Derek");
+          newPolicypage.enterAgencyID("Anchor");
           newPolicypage.clickContinueButton();
 
-          cy.wait(5000);
-
-          // cy.get("[id='P_L_G_MainASPxCallbackPanel_i50w0_t0_WorkflowPop_default_c0w0_t0_NewClientButton_CD']").should('exist').then(($element)=>
-
-          // {
-          //   if($element)
-          //   {
-          //     cy.get("[id='P_L_G_MainASPxCallbackPanel_i50w0_t0_WorkflowPop_default_c0w0_t0_NewClientButton_CD']").click();
-          //   }
-          //   else
-          //   {
-          //     cy.log('Element is not present');
-          //   }
-          // }
-
-          // )
-
-
-
-          cy.wait(5000);
-
-
-
+          cy.wait(10000);
 
           const addressPage = new Address();
           addressPage.checkNewClientExistsAndClick();
@@ -80,21 +72,12 @@ describe('Launch Insure Soft Portal',
           addressPage.enterAddress(user.StreetNo, user.Address);
           addressPage.saveAddress();
 
-
-
           cy.get("[id='P_L_V_MyNavigatorToggleLabel']").then(($PNo) => {
 
             const PolicyNumber = $PNo.text();
             cy.writeFile('cypress/fixtures/PolicyNo.txt', PolicyNumber + '\n', { flag: 'a+' })
 
           })
-
-
-
-          // cy.get("[id='P_L_V_MyNavigatorToggleLabel']").invoke('text').then(PolicyNumber);
-          //  cy.writeFile('cypress/fixtures/PolicyNo.txt', PolicyNumber, { flag: 'a+' })
-
-
 
           const UWQuestionsPage = new UWQuestions();
 
@@ -140,29 +123,16 @@ describe('Launch Insure Soft Portal',
           BillingInfoPage.EnterBillingInfoData();
           BillingInfoPage.ClickPolicySummary();
 
-
-          // /dx-vam
-
-          // #P_L_V_ValidationPopUp_MyASPxPopupControl_OKInsValidationButton_CD > span
-
-          // cy.get("[class='dx-vam']").click();
           cy.wait(5000);
-          //cy.get('span').contains("OK").click();
+          //P_L_V_ValidationPopUp_MyASPxPopupControl_ContinueInsValidationButton_CD
+          //P_L_V_ValidationPopUp_MyASPxPopupControl_OKInsValidationButton_CD 
 
-          cy.get("[id='P_L_V_ValidationPopUp_MyASPxPopupControl_OKInsValidationButton_CD']").click();
-          //cy.get("span[id='P_L_V_ValidationPopUp_MyASPxPopupControl_OKInsValidationButton_CD']").click({force: true});
 
-          cy.wait(3000);
-          //#P_L_V_ValidationPopUp_MyASPxPopupControl_OKInsValidationButton_CD > 
-          //cy.get("[id='P_L_TaskTabStrip_button6']").click();
-          cy.wait(1000);
-          // cy.get("[id='P_L_V_MyInsMessageBox_MyASPxPopupControl_YesInsMessageBoxButton_CD']").click();
+          cy.get("[id='P_L_V_ValidationPopUp_MyASPxPopupControl_ContinueInsValidationButton_CD']").click();
+        
+          cy.wait(7000);
 
-          //#P_L_V_MyInsMessageBox_MyASPxPopupControl_YesInsMessageBoxButton_CD > span
-
-          //Issue Policy
-          cy.wait(3000);
-          cy.get("[id='P_L_V_IssueToolStripButton']").click();
+          cy.get("[id='P_L_V_IssueToolStripButton']").click({force: true});
           cy.wait(3000);
 
           //Update client button click
@@ -173,88 +143,21 @@ describe('Launch Insure Soft Portal',
           cy.get("[id='P_L_V_EmployeeViewASPxPopupControl_UpdateClient_IssueButton_CD']").click();
           cy.wait(10000);
 
-          cy.get("[id='P_L_V_ValidationPopUp_MyASPxPopupControl_OKInsValidationButton_CD']").click();
+
+          //P_L_V_ValidationPopUp_MyASPxPopupControl_ContinueInsValidationButton_CD
+          //P_L_V_ValidationPopUp_MyASPxPopupControl_OKInsValidationButton_CD
+
+          cy.get("[id='P_L_V_ValidationPopUp_MyASPxPopupControl_ContinueInsValidationButton_CD']").click();
 
           cy.wait(3000);
 
-          //#P_L_V_ValidationPopUp_MyASPxPopupControl_OKInsValidationButton_CD > 
           cy.get("[id='P_L_TaskTabStrip_button6']").click();
-          cy.wait(1000);
-          //cy.get("[id='P_L_V_MyInsMessageBox_MyASPxPopupControl_YesInsMessageBoxButton_CD']").click();
+          cy.wait(6000);
 
-
-
-
-
-
-
-
-
-
-
-          //#P_L_TaskTabStrip_button6
-
-          //const PolicyNo = cy.get("[class='P_L_V_PremiumPanelInsUserControl_PolicyNumberLabel']").invoke('text');
-          cy.wait(5000);
-          //cy.writeFile('cypress/fixtures/PolicyNo.txt', PolicyNumber, { flag: 'a+' })
-
-          // cy.writeFile('cypress\e2e\PolicyNo.json', { PolicyNo: '12345'})
-          // //cy.writeFile('cypress\e2e\PolicyNo.json','12345');
-          // cy.readFile('cypress\e2e\PolicyNo.json').then((user) => {
-          //   expect(user.PolicyNo).to.equal('12345') // true
-          // })
-
-          // cy.writeFile('path/to/data.json', { name: 'Eliza', email: 'eliza@example.com' })
-
-
-
-          // cy.readFile('SiteAPIdata.json').then((data) => {
-          //   data.siteID = siteID;
-          //   cy.writeFile('SiteAPIdata.json', data);
-          // })
-
-          //console.log(PolicyNo);
         }
-        // alert(PolicyNo);
+
       })
 
     })
-    /* 
-    it('NewPolicyPage',()=>{
-      const newPolicypage = new NewPolicyPage();
-      newPolicypage.clickPolicyLink();
-      newPolicypage.ClickNewPolicyLink();
-      newPolicypage.enterEffectiveDate('02/01/2024');
-      newPolicypage.enterFirstName('TestUser1');
-      newPolicypage.enterLastName('TestUser1');
-      newPolicypage.enterPhopneNo('8585273683');
-      newPolicypage.enterZip('92131');
-      
-      
-    })*/
-
-    /*    var Connection = require('tedious').Connection;
-       var config = {
-         server: 'your_server.database.windows.net',  //update me
-         authentication: {
-           type: 'default',
-           options: {
-             userName: 'your_username', //update me
-             password: 'your_password'  //update me
-           }
-         },
-         options: {
-           // If you are on Microsoft Azure, you need encryption:
-           encrypt: true,
-           database: 'your_database'  //update me
-         }
-       };
-       var connection = new Connection(config);
-       connection.on('connect', function (err) {
-         // If no error, then good to proceed.
-         console.log("Connected");
-       });
-   
-       connection.connect();
-   */
+    
   }) 

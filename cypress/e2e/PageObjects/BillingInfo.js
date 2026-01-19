@@ -1,42 +1,29 @@
 
-class BillingInfo
-{
+class BillingInfo {
 
-ClickBillingInfoLink()
-{
+    ClickBillingInfoLink() {
 
-    cy.get('a').contains("Billing Info").click();
-        
-    cy.wait(5000);
-}
+        cy.get('a').contains("Billing Info").click();
 
-EnterBillingInfoData()
-{
+        cy.wait(5000);
+    }
 
-  //  cy.get("[name='ctl00$P$L$V$v101w22$t23$MethodComboBox$D']").type('Direct Bill{enter}');
-    cy.wait(2000);
+    EnterBillingInfoData() {
+        cy.wait(2000);
 
-    cy.get("[name='ctl00$P$L$V$v101w22$t23$PayPlanInsCombo$D']").type('Full Pay Invoice{enter}');
-    cy.wait(2000);
+        cy.get("[name='ctl00$P$L$V$v101w22$t22$PayPlanInsCombo$D']").type('Full Pay Invoice{enter}');
+        cy.wait(2000);
 
 
-    cy.get("[name='ctl00$P$L$V$v101w22$t23$BillToControl$BillToInsComboBox$D']").type('Insured{enter}');
-    cy.wait(2000);
+        cy.get("[name='ctl00$P$L$V$v101w22$t22$BillToControl$BillToInsComboBox$D']").type('Insured{enter}');
+        cy.wait(2000);
+    }
 
+    ClickPolicySummary() {
+        cy.get('a').contains("Policy Summary").click();
 
-    
-
-    
-    
-    
-}
-
-ClickPolicySummary()
-{
-    cy.get('a').contains("Policy Summary").click();
-        
-    cy.wait(5000);
-}
+        cy.wait(5000);
+    }
 
 
 
