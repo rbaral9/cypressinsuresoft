@@ -1,26 +1,28 @@
 {
-  "name": "automation",
+  "name": "cypressproject",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbaral9/cypressinsuresoft.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rbaral9/cypressinsuresoft/issues"
+  },
+  "homepage": "https://github.com/rbaral9/cypressinsuresoft#readme",
   "dependencies": {
-    "cypress": "^13.6.2",
-    "mssql": "^10.0.2",
-    "typescript": "^5.3.3",
-    "xlsx": "^0.18.5"
+    "cypress": "^15.7.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.3",
-    "@angular/cli": "^17.3.3",
-    "@angular/common": "^17.3.4",
-    "@angular/core": "^17.3.4",
-    "@angular/platform-browser-dynamic": "^17.3.4",
-    "cypress-iframe": "^1.0.1",
+    "cypress-file-upload": "^5.0.8",
     "cypress-xpath": "^2.0.1"
   }
 }

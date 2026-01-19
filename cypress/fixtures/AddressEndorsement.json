@@ -1,0 +1,38 @@
+
+
+    {
+      "login": {
+        "username": "rbaral",
+        "password": "R@1qaz2wsx",
+        "url": "https://c89-test-2.diamondasaservice.com/DiamondWeb/(S(dnt4w2254b1a0nmlp3sc0obh))/Employee"
+      },
+      "policy": {
+        "policyNumber": "AGM0000199465",
+        "endorsementStatus": "Endorsement Pending"
+      },
+      "transactionInformation": {
+        "effectiveDate": "01072026",
+        "transactionType": "Endorsement",
+        "transactionSource": "Company",
+        "transactionReason": "Change Address",
+        "remarks": "Address change endorsement"
+      },
+      "policyholderAddress": {
+        "street": "12828",
+        "streetName": "war horse st",
+        "apartment": "",
+        "additional": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zipCode": "92129",
+        "county": "San Diego"
+      },
+      "selectors": {
+        "issueButton": "[id='P_L_V_IssueToolStripButton']",
+        "updateClientButton": "[id='P_L_V_EmployeeViewASPxPopupControl_UpdateClient_UpdateClientButton_CD']",
+        "issuePolicy": "[id='P_L_V_EmployeeViewASPxPopupControl_UpdateClient_IssueButton_CD']",
+        "continueValidation": "[id='P_L_V_ValidationPopUp_MyASPxPopupControl_ContinueInsValidationButton_CD']",
+        "taskTab": "[id='P_L_V_TaskTabStrip_button6']"
+      }
+    }
+    

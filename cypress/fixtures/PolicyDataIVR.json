@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "EffectiveDate": "06222024",
+        "EffectiveDate": "01012026",
         "PhoneNo": "7087052587",
         "Zip": "92131",
         "StreetNo": "10824",
@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "EffectiveDate": "06222024",
+        "EffectiveDate": "01012026",
         "PhoneNo": "5938611954",
         "Zip": "92128",
         "StreetNo": "13612",
@@ -24,7 +24,7 @@
     },
     {
         "id": 3,
-        "EffectiveDate": "06222024",
+        "EffectiveDate": "01012026",
         "PhoneNo": "8585273684",
         "Zip": "92129",
         "StreetNo": "11238",
@@ -35,7 +35,7 @@
     },
     {
         "id": 4,
-        "EffectiveDate": "06222024",
+        "EffectiveDate": "01012026",
         "PhoneNo": "8585273684",
         "Zip": "92101",
         "StreetNo": "2453",
@@ -46,7 +46,7 @@
     },
     {
         "id": 5,
-        "EffectiveDate": "06222024",
+        "EffectiveDate": "01012026",
         "PhoneNo": "8585273684",
         "Zip": "92121",
         "StreetNo": "9773",
@@ -57,7 +57,7 @@
     },
     {
         "id": 6,
-        "EffectiveDate": "06222024",
+        "EffectiveDate": "01012026",
         "PhoneNo": "8585273684",
         "Zip": "92126",
         "StreetNo": "11058",
@@ -68,7 +68,7 @@
     },
     {
         "id": 7,
-        "EffectiveDate": "06222024",
+        "EffectiveDate": "01012026",
         "PhoneNo": "8585273684",
         "Zip": "92124",
         "StreetNo": "5356",
@@ -79,7 +79,7 @@
     },
     {
         "id": 8,
-        "EffectiveDate": "06222024",
+        "EffectiveDate": "01012026",
         "PhoneNo": "8585273684",
         "Zip": "92591",
         "StreetNo": "40647",
@@ -90,7 +90,7 @@
     },
     {
         "id": 9,
-        "EffectiveDate": "06222024",
+        "EffectiveDate": "01012026",
         "PhoneNo": "8585273684",
         "Zip": "92014",
         "StreetNo": "4752",
@@ -101,7 +101,7 @@
     },
     {
         "id": 10,
-        "EffectiveDate": "06222024",
+        "EffectiveDate": "01012026",
         "PhoneNo": "8585273684",
         "Zip": "90001",
         "StreetNo": "1159",
@@ -109,5 +109,118 @@
         "InsuredFname": "Hazel",
         "DrvLname": "Zappel",
         "VinNo": "2HGFC2F69LH557659"
-    }
+    },
+
+        {
+            "id": 11,
+            "EffectiveDate": "02052025",
+            "PhoneNo": "7087052587",
+            "Zip": "92131",
+            "StreetNo": "10824",
+            "Address": "CAMINITO COLORADO",
+            "InsuredFname": "Betta",
+            "DrvLname": "Sellwood",
+            "VinNo": "2HGFC2F69LH557659"
+        },
+        {
+            "id": 12,
+            "EffectiveDate": "02052025",
+            "PhoneNo": "5938611954",
+            "Zip": "92128",
+            "StreetNo": "13612",
+            "Address": "Fontanelle Pl",
+            "InsuredFname": "Rea",
+            "DrvLname": "Duetschens",
+            "VinNo": "2HGFC2F69LH557659"
+            
+        },
+        {
+            "id": 13,
+            "EffectiveDate": "02052025",
+            "PhoneNo": "8585273684",
+            "Zip": "92129",
+            "StreetNo": "11238",
+            "Address": "Del Diablo Way",
+            "InsuredFname": "Benetta",
+            "DrvLname": "Yorath",
+            "VinNo": "2HGFC2F69LH557659"
+        },
+        {
+            "id": 14,
+            "EffectiveDate": "02052025",
+            "PhoneNo": "8585273684",
+            "Zip": "92101",
+            "StreetNo": "2453",
+            "Address": "Curlew St",
+            "InsuredFname": "Graham",
+            "DrvLname": "Chessil",
+            "VinNo": "2HGFC2F69LH557659"
+        },
+        {
+            "id": 15,
+            "EffectiveDate": "02052025",
+            "PhoneNo": "8585273684",
+            "Zip": "92121",
+            "StreetNo": "9773",
+            "Address": "Genesee Ave",
+            "InsuredFname": "Les",
+            "DrvLname": "Shimon",
+            "VinNo": "2HGFC2F69LH557659"
+        },
+        {
+            "id": 16,
+            "EffectiveDate": "02052025",
+            "PhoneNo": "8585273684",
+            "Zip": "92126",
+            "StreetNo": "11058",
+            "Address": "Solstice Way",
+            "InsuredFname": "Shandy",
+            "DrvLname": "Ridett",
+            "VinNo": "2HGFC2F69LH557659"
+        },
+        {
+            "id": 17,
+            "EffectiveDate": "02052025",
+            "PhoneNo": "8585273684",
+            "Zip": "92124",
+            "StreetNo": "5356",
+            "Address": "Caminito Velasquez",
+            "InsuredFname": "Georgi",
+            "DrvLname": "Fullard",
+            "VinNo": "2HGFC2F69LH557659"
+        },
+        {
+            "id": 18,
+            "EffectiveDate": "02052025",
+            "PhoneNo": "8585273684",
+            "Zip": "92591",
+            "StreetNo": "40647",
+            "Address": "Melrose Dr",
+            "InsuredFname": "Darcee",
+            "DrvLname": "Mallard",
+            "VinNo": "2HGFC2F69LH557659"
+        },
+        {
+            "id": 19,
+            "EffectiveDate": "02052025",
+            "PhoneNo": "8585273684",
+            "Zip": "92014",
+            "StreetNo": "4752",
+            "Address": "Sun Valley Rd",
+            "InsuredFname": "Anatollo",
+            "DrvLname": "Corness",
+            "VinNo": "2HGFC2F69LH557659"
+        },
+        {
+            "id": 20,
+            "EffectiveDate": "02052025",
+            "PhoneNo": "8585273684",
+            "Zip": "90001",
+            "StreetNo": "1159",
+            "Address": "E 64th St",
+            "InsuredFname": "Hazel",
+            "DrvLname": "Zappel",
+            "VinNo": "2HGFC2F69LH557659"
+        }
+    
 ]
